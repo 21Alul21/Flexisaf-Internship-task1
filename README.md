@@ -4,8 +4,7 @@
 
 This task entails creating database schemas and entity relationship diagrams (ERDs)
 for a website. 
-
-![ERD for my mini-banking website](drawSQL-image-export-2025-09-21 (1).png)
+![ERD for my mini-banking website](https://github.com/21Alul21/Flexisaf-Internship-task1/blob/Task_2/drawSQL-image-export-2025-09-21%20(1).png?raw=true)
 
 The website I choosed for this task is a mini-banking web site
 
