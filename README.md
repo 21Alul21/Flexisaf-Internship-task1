@@ -5,7 +5,9 @@
 This task entails creating database schemas and entity relationship diagrams (ERDs)
 for a website. 
 
-The website I chosed for this task is a mini-banking web site
+![ERD for my mini-banking website](drawSQL-image-export-2025-09-21 (1).png)
+
+The website I choosed for this task is a mini-banking web site
 
 The technology I used to create the ERDs for this project is the drawsql website
  
