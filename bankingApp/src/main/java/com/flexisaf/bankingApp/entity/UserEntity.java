@@ -1,5 +1,7 @@
 package com.flexisaf.bankingApp.entity;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -24,8 +26,9 @@ public class UserEntity {
     private String name;
     private String email;
     private String password;
+    private LocalDateTime createdAt;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<AccountsEntity> accounts;
+    private List<AccountsEntity> accounts = new ArrayList<>();
 
 }

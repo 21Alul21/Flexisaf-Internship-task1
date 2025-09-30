@@ -5,7 +5,7 @@ This projects simulates a basic banking operations by exposing just four(4) endp
 - Create an account
 - Deposit and
 - Withdraw money
-
+![SwaggerUI showing the four endpoints]()
 ## Technologies used
 - Java Programming language
 - Spring Boot Framework

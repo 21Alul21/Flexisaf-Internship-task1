@@ -1,7 +1,10 @@
 package com.flexisaf.bankingApp.service;
 
+import java.time.LocalDateTime;
+
 import org.springframework.stereotype.Service;
 import com.flexisaf.bankingApp.repository.UserRepository;
+import com.flexisaf.bankingApp.entity.UserEntity;
 
 @Service
 public class UserService {
@@ -11,7 +14,14 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
- public void createUser(){
-       userRepository.save(user).orElseThrow(()-> new RuntimeException("User not created due to invalid data"));
- }
+ public UserEntity createUser(UserEntity user){
+        if(userRepository.findByEmail(user.getEmail()) == null){
+            user.setCreatedAt(LocalDateTime.now());
+            return userRepository.save(user);
+            
+        }
+       else{
+        throw new IllegalArgumentException("email address already exist");
+       }
+    }
 }
