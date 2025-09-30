@@ -5,7 +5,7 @@ This projects simulates a basic banking operations by exposing just four(4) endp
 - Create an account
 - Deposit and
 - Withdraw money
-![SwaggerUI showing the four endpoints]()
+![SwaggerUI showing the four endpoints](https://github.com/21Alul21/Flexisaf-Internship-task1/blob/Task_3/Screenshot%202025-09-30%20172808.png)
 ## Technologies used
 - Java Programming language
 - Spring Boot Framework
