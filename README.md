@@ -1,13 +1,10 @@
-# SimpleBankingApp
-This project is the third task for the FlexiSaf Java Backend track. 
-This projects simulates a basic banking operations by exposing just four(4) endpoints, to:
-- Create a user
-- Create an account
-- Deposit and
-- Withdraw money
-![SwaggerUI showing the four endpoints](https://github.com/21Alul21/Flexisaf-Internship-task1/blob/Task_3/Screenshot%202025-09-30%20172808.png)
+# Database Migration using Flyway
+This project is the fifth task for the FlexiSaf Java Backend track. 
+The project involves database migration using Flyway, a database versioning dependency that safely keeps previous records and changes of database versions. 
+
 ## Technologies used
 - Java Programming language
 - Spring Boot Framework
 - JPA
 - H2 Database
+- Flyway
